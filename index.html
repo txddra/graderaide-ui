@@ -2,17 +2,22 @@
   <head>
     <title>Graderaide</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet"  href="style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
     <section class="app">
       <section class="new-student-input">
-        <h1>New Student</h1>
+        <h1>Add New Student</h1>
         <label for="new-student-name">Student Name</label>
         <input type="text" class="new-student-name" name="new-student-name">
         <label for="new-student-course">Course</label>
-        <input type="text" class="new-student-course" name="new-student-course">
+        <!-- <input type="text" class="new-student-course" name="new-student-course"> -->
+        <select class="new-student-course" name="new-student-course">
+          <option value="wdi">WDI</option>
+          <option value="python">Python</option>
+        </select>
         <label for="new-student-term">Term</label>
         <select class="new-student-term" name="new-student-term">
           <option value="1">1</option>
